@@ -2,6 +2,7 @@
     "name": "aligntop/nasa-plateau",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
     "description": "Nasa Plateau",
     "require": {
         "php": "^7.2"
