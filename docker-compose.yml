@@ -1,0 +1,12 @@
+version: '3.2'
+
+services:
+  php-fpm:
+      build: .
+      container_name: php-fpm
+      working_dir: /application
+      environment:
+        XDEBUG_CONFIG: remote_host=192.168.1.40
+        PHP_IDE_CONFIG: serverName=192.168.1.40
+      volumes:
+        - .:/application
